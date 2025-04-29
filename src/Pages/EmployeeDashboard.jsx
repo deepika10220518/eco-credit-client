@@ -29,7 +29,7 @@ const EmployeeDashboard = () => {
     endDate: "",
   });
 
-  const API_BASE = "https://eco-credit-server.onrender.com/";
+  const API_BASE = "https://eco-credit-server.onrender.com";
 
   const CARBON_FACTORS = {
     bike: 0.08,
