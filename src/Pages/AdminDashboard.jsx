@@ -48,7 +48,7 @@ const AdminDashboard = () => {
     topEmployers: null,
   });
 
-  const API_BASE = "https://eco-credit-server.onrender.com/";
+  const API_BASE = "https://eco-credit-server.onrender.com";
 
   const fetchData = async () => {
     try {
