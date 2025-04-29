@@ -73,7 +73,7 @@ const EmployerDashboard = () => {
     tradeHistory: [],
   });
 
-  const API_BASE = "https://eco-credit-server.onrender.com/";
+  const API_BASE = "https://eco-credit-server.onrender.com";
 
   // Fetch data when component mounts or refreshKey changes
   useEffect(() => {
