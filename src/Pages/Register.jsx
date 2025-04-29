@@ -7,7 +7,7 @@ const RegisterPage = () => {
   const queryParams = new URLSearchParams(location.search);
   const roleFromQuery = queryParams.get("role");
 
-  const API_BASE = "https://eco-credit-server.onrender.com/";
+  const API_BASE = "https://eco-credit-server.onrender.com";
 
   const [formData, setFormData] = useState({
     username: "",
